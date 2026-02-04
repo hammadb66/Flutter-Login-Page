@@ -1,12 +1,6 @@
-# Ignore platform-specific C++ and build files from language statistics
-android/** linguist-vendored
-ios/** linguist-vendored
+# Mark platform folders as vendored so they don't count as C++
 windows/** linguist-vendored
 macos/** linguist-vendored
 linux/** linguist-vendored
-web/** linguist-vendored
-
-# Specifically target C++ files if they still show up
-*.cpp linguist-vendored
-*.h linguist-vendored
-*.cc linguist-vendored
+android/** linguist-vendored
+ios/** linguist-vendored
