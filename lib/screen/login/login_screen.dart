@@ -8,6 +8,7 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
+  //Picture
   String netImage =
       "https://support.activision.com/servlet/servlet.ImageServer?id=0150B000005cw59&oid=00DU0000000HMgw&lastMod=1475523066000";
   TextEditingController phoneNumber = TextEditingController();
