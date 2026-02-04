@@ -1,0 +1,8 @@
+# Treat all Dart files as Dart
+*.dart linguist-language=Dart
+
+# Ignore native build files for language stats
+android/* linguist-vendored
+ios/* linguist-vendored
+build/* linguist-vendored
+web/* linguist-vendored
